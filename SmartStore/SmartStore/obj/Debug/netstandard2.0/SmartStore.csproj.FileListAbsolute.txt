@@ -1,0 +1,12 @@
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/SmartStore.csprojAssemblyReference.cache
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/SmartStore.AssemblyInfoInputs.cache
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/SmartStore.AssemblyInfo.cs
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/SmartStore.csproj.CoreCompileInputs.cache
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/SmartStore.dll
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/SmartStore.pdb
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/bin/Debug/netstandard2.0/SmartStore.deps.json
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/bin/Debug/netstandard2.0/SmartStore.dll
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/bin/Debug/netstandard2.0/SmartStore.pdb
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/XamlC.stamp

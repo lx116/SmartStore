@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "SSg7mT5n9KdAYBkVOCy8+ZrV9hePi7hb7GZzrdEWVRPWM5I65omE4KpHOM+hM6mYGxaA50RTGDBOgWjFNlXyGw==",
+  "success": true,
+  "projectFilePath": "/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/SmartStore.csproj",
+  "expectedPackageFiles": [
+    "/Users/luisenrique/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/system.runtime/4.3.0/system.runtime.4.3.0.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/xamarin.forms.pancakeview/2.3.0.763-beta/xamarin.forms.pancakeview.2.3.0.763-beta.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/xamarinreactorui/1.0.125/xamarinreactorui.1.0.125.nupkg.sha512",
+    "/Users/luisenrique/.nuget/packages/xamarinreactorui.pancakeview/1.0.125/xamarinreactorui.pancakeview.1.0.125.nupkg.sha512"
+  ],
+  "logs": []
+}
