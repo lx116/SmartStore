@@ -10,3 +10,4 @@
 /Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/bin/Debug/netstandard2.0/SmartStore.dll
 /Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/bin/Debug/netstandard2.0/SmartStore.pdb
 /Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/ProductView.xaml.g.cs
