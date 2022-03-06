@@ -12,7 +12,7 @@ namespace SmartStore
         {
             InitializeComponent();
 
-            MainPage = new ProductView();
+            MainPage = new NavigationPage(new ProductView());
         }
 
         protected override void OnStart()
