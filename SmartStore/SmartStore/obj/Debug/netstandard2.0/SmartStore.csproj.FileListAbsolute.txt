@@ -11,3 +11,6 @@
 /Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/bin/Debug/netstandard2.0/SmartStore.pdb
 /Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/XamlC.stamp
 /Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/ProductView.xaml.g.cs
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/AllProducts.xaml.g.cs
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/SmartPhones.xaml.g.cs
+/Users/luisenrique/RiderProjects/SmartStore/SmartStore/SmartStore/obj/Debug/netstandard2.0/Audio.xaml.g.cs

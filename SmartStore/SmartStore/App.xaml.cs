@@ -3,7 +3,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
-
+[assembly: ExportFont("Montserrat-VariableFont_wght.ttf", Alias = "Montserrat-L")]
+[assembly: ExportFont("Montserrat-SemiBold.ttf", Alias = "Montserrat-Bold")]
+[assembly: ExportFont("Montserrat-Regular.ttf", Alias = "Montserrat")]
 namespace SmartStore
 {
     public partial class App : Application
@@ -12,7 +14,11 @@ namespace SmartStore
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new ProductView());
+            MainPage = new NavigationPage(new AllProducts())
+            {
+                BarBackgroundColor = Color.FromHex("#00BFB3"),
+                BarTextColor = Color.White
+            };
         }
 
         protected override void OnStart()

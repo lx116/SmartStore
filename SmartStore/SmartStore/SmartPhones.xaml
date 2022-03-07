@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    x:Class="SmartStore.SmartPhones"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView">
+    <ContentPage.Content>
+        <ScrollView Margin="50,0">
+            <CollectionView
+                ItemsSource="{Binding Products}"
+                SelectionChanged="SelectableItemsView_OnSelectionChanged"
+                SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="10">
+                            <yummy:PancakeView
+                                BackgroundColor="{Binding GradientColor1}"
+                                BackgroundGradientEndPoint="0,1"
+                                BackgroundGradientStartPoint="0,0"
+                                CornerRadius="40"
+                                HeightRequest="200"
+                                WidthRequest="80">
+                                <yummy:PancakeView.Shadow>
+                                    <yummy:DropShadow Color="Gray" Offset="1,1" />
+                                </yummy:PancakeView.Shadow>
+                                <yummy:PancakeView.BackgroundGradientStops>
+                                    <yummy:GradientStopCollection>
+                                        <yummy:GradientStop Color="{Binding GradientColor1}" Offset="0" />
+                                        <yummy:GradientStop Color="{Binding GradientColor2}" Offset="1" />
+                                    </yummy:GradientStopCollection>
+                                </yummy:PancakeView.BackgroundGradientStops>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="150" />
+                                        <RowDefinition Height="30" />
+                                    </Grid.RowDefinitions>
+                                    <Image
+                                        Aspect="AspectFit"
+                                        Grid.Row="0"
+                                        Source="{Binding PrincipalImage}" />
+                                    <Label
+                                        FontSize="18"
+                                        Grid.Row="1"
+                                        HorizontalOptions="CenterAndExpand"
+                                        Text="{Binding Name}"
+                                        x:Name="Labelq" />
+                                </Grid>
+                            </yummy:PancakeView>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

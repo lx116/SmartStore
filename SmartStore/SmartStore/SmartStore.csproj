@@ -14,4 +14,22 @@
         <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.3.0.763-beta" />
         <PackageReference Include="XamarinReactorUI.PancakeView" Version="1.0.125" />
     </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources\FontsResources\Montserrat" />
+      <Folder Include="Resources\VIsualResources\Icons" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\FontsResources\Montserrat\Montserrat\Montserrat-Italic-VariableFont_wght.ttf" />
+      <EmbeddedResource Include="Resources\FontsResources\Montserrat\Montserrat\Montserrat-Italic-VariableFont_wght.ttf" />
+      <None Remove="Resources\FontsResources\Montserrat\Montserrat\Montserrat-VariableFont_wght.ttf" />
+      <EmbeddedResource Include="Resources\FontsResources\Montserrat\Montserrat\Montserrat-VariableFont_wght.ttf" />
+      <None Remove="Resources\FontsResources\Montserrat\Montserrat\static\Montserrat-Regular.ttf" />
+      <EmbeddedResource Include="Resources\FontsResources\Montserrat\Montserrat\static\Montserrat-Regular.ttf" />
+      <None Remove="Resources\FontsResources\Montserrat\Montserrat\static\Montserrat-Light.ttf" />
+      <EmbeddedResource Include="Resources\FontsResources\Montserrat\Montserrat\static\Montserrat-Light.ttf" />
+      <None Remove="Resources\FontsResources\Montserrat\Montserrat\static\Montserrat-SemiBold.ttf" />
+      <EmbeddedResource Include="Resources\FontsResources\Montserrat\Montserrat\static\Montserrat-SemiBold.ttf" />
+    </ItemGroup>
 </Project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<TabbedPage
+    x:Class="SmartStore.AllProducts"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:local="clr-namespace:SmartStore;assembly=SmartStore"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <local:SmartPhones Title="Smartphones" />
+    <local:Audio Title="AUDIO" />
+</TabbedPage>
